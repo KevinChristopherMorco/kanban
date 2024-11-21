@@ -1,0 +1,205 @@
+{
+  "boards": [
+    {
+      "boardTitle": "Project Development",
+      "boardID": "brd-1",
+      "status": true,
+      "columns": [
+        {
+          "columnID": "clm-1",
+          "columnName": "todo",
+          "label": "todo",
+          "tasks": [
+            {
+              "taskID": "tsk-1",
+              "taskTitle": "Finalize project requirements",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Identify key project stakeholders",
+                  "isDone": false
+                },
+                {
+                  "subtaskID": "sbtsk-2",
+                  "subtaskTitle": "Conduct requirement gathering sessions (interviews, surveys, etc.)",
+                  "isDone": false
+                },
+                {
+                  "subtaskID": "sbtsk-3",
+                  "subtaskTitle": "Document and prioritize the project requirements",
+                  "isDone": false
+                }
+              ]
+            },
+            {
+              "taskID": "tsk-2",
+              "taskTitle": "Set up project repository.",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Create project repository on GitHub (or other platform)",
+                  "isDone": false
+                },
+                {
+                  "subtaskID": "sbtsk-2",
+                  "subtaskTitle": "Configure repository structure (folders, README, etc.)",
+                  "isDone": false
+                }
+              ]
+            },
+            {
+              "taskID": "tsk-3",
+              "taskTitle": "Create initial wireframes",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Review wireframes with stakeholders for feedback",
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columnID": "clm-2",
+          "columnName": "in-progress",
+          "label": "in progress",
+          "tasks": [
+            {
+              "taskID": "ip-1",
+              "taskTitle": "Design UI elements.",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Create a color palette for the UI",
+                  "isDone": false
+                }
+              ]
+            },
+            {
+              "taskID": "ip-2",
+              "taskTitle": "Develop login functionality..",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Design the login form UI (fields, buttons, error messages)",
+                  "isDone": false
+                },
+                {
+                  "subtaskID": "sbtsk-2",
+                  "subtaskTitle": "Implement backend authentication logic (username/email, password validation)",
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columnID": "clm-3",
+          "columnName": "done",
+          "label": "done",
+          "tasks": [
+            {
+              "taskID": "dn-1",
+              "taskTitle": "Frontend layout completed.",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Finalize overall page structure (header, footer, sidebar, main content)",
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "boardTitle": "Bali Vacation",
+      "boardID": "brd-2",
+      "status": false,
+      "columns": [
+        {
+          "columnID": "clm-1",
+          "columnName": "todo",
+          "label": "todo",
+          "tasks": [
+            {
+              "taskID": "tsk-1",
+              "taskTitle": "Try Bali's Delicacies.",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Research and list top Balinese dishes to try",
+                  "isDone": false
+                },
+                {
+                  "subtaskID": "sbtsk-2",
+                  "subtaskTitle": "Find local restaurants or warungs known for authentic Balinese food",
+                  "isDone": false
+                }
+              ]
+            },
+            {
+              "taskID": "tsk-2",
+              "taskTitle": "Visit Ceking Rice Terrace.",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Research the best time to visit Ceking Rice Terrace",
+                  "isDone": false
+                },
+                {
+                  "subtaskID": "sbtsk-2",
+                  "subtaskTitle": "Arrange transportation to Ceking Rice Terrace",
+                  "isDone": false
+                },
+                {
+                  "subtaskID": "sbtsk-3",
+                  "subtaskTitle": "Prepare camera and gear for scenic photos",
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columnID": "clm-2",
+          "columnName": "in-progress",
+          "label": "in progress",
+          "tasks": [
+            {
+              "taskID": "ip-1",
+              "taskTitle": "Relaxing and enjoying at Bali's beach",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Choose a beach based on desired activities (surfing, sunbathing, swimming)",
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columnID": "clm-3",
+          "columnName": "done",
+          "label": "done",
+          "tasks": [
+            {
+              "taskID": "dn-1",
+              "taskTitle": "Booked a 4 star hotel here in Bali.",
+              "subtasks": [
+                {
+                  "subtaskID": "sbtsk-1",
+                  "subtaskTitle": "Research and shortlist 4-star hotels in Bali based on location and amenities",
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

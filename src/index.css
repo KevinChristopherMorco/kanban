@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-color: #635fc7;
+
+  --main-bg-color: #f4f7fd;
+  --card-bg-color: #fff;
+  --link-hover-color: #a8a4ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-screen overflow-x-hidden;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-[4px];
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply rounded-xl bg-white;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[var(--brand-color)];
+  }
+}
