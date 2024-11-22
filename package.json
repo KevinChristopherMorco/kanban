@@ -17,7 +17,8 @@
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0",
-    "typeface-inter": "^3.18.1"
+    "typeface-inter": "^3.18.1",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",

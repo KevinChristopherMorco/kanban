@@ -4,9 +4,8 @@ import { RiAddFill, RiArrowDownSLine, RiMore2Line } from "@remixicon/react";
 import { useKanbanContext } from "../../hooks/board/KanbanProvider";
 import useScreenResponsiveness from "../../hooks/responsive/useScreenResponsiveness";
 
-const Header = () => {
+const Header = ({ setToggleModal }) => {
   const { activeBoardData } = useKanbanContext();
-  console.log(activeBoardData);
   const {
     screenSize: { sm, md },
     isLargeScreen,
@@ -28,10 +27,13 @@ const Header = () => {
           {isSmallScreen && <RiArrowDownSLine className="h-4 w-4" />}
         </div>
         <div className="flex items-center gap-1">
-          <div className="flex cursor-pointer items-center justify-center rounded-2xl bg-[var(--brand-color)] px-3 py-1 font-bold text-white transition-colors hover:bg-[var(--link-hover-color)] md:rounded-full md:py-2 xl:px-5 xl:py-3">
+          <button
+            onClick={(prev) => setToggleModal({ ...prev, isAddTaskOpen: true })}
+            className="flex cursor-pointer items-center justify-center rounded-2xl bg-[var(--brand-color)] px-3 py-1 font-bold text-white transition-colors hover:bg-[var(--link-hover-color)] md:rounded-full md:py-2 xl:px-5 xl:py-3"
+          >
             <RiAddFill className="h-5 w-5" />
             {(md || isLargeScreen) && <p>Add new task</p>}
-          </div>
+          </button>
           <RiMore2Line />
         </div>
       </div>

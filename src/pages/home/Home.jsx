@@ -1,23 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 
-import defaultTasks from "../../json/defaultBoard.json";
-import useKanbanBoard, {
-  useKanbanContext,
-} from "../../hooks/board/KanbanProvider";
+import { useKanbanContext } from "../../hooks/board/KanbanProvider";
 
 const Home = () => {
-  // const [tasks, setTasks] = useState([
-  //   { id: 1, title: "Eat" },
-  //   { id: 2, title: "Sleep" },
-  //   { id: 3, title: "Travel" },
-  // ]);
-
-  // const [board, setBoard] = useState(
-  //   JSON.parse(localStorage.getItem("kanban-board")) || defaultTasks,
-  // );
-
   const { activeBoardData } = useKanbanContext();
 
   return (
@@ -36,7 +23,6 @@ const Home = () => {
               </div>
               <div className="flex flex-col gap-5">
                 {column.tasks.map((task, index) => {
-                  console.log(column);
                   return (
                     <div
                       key={index}

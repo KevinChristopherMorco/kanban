@@ -4,57 +4,85 @@
       "boardTitle": "Project Development",
       "boardID": "brd-1",
       "status": true,
+      "dateCreated": "2024-11-01T09:00:00Z",
+      "dateUpdated": "2024-11-15T09:00:00Z",
       "columns": [
         {
           "columnID": "clm-1",
           "columnName": "todo",
           "label": "todo",
+          "dateCreated": "2024-11-01T10:00:00Z",
+          "dateUpdated": "2024-11-10T15:00:00Z",
           "tasks": [
             {
               "taskID": "tsk-1",
+              "columnID": "clm-1",
               "taskTitle": "Finalize project requirements",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-02T11:00:00Z",
+              "dateUpdated": "2024-11-15T14:00:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Identify key project stakeholders",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-02T11:30:00Z",
+                  "dateUpdated": "2024-11-10T16:00:00Z"
                 },
                 {
                   "subtaskID": "sbtsk-2",
                   "subtaskTitle": "Conduct requirement gathering sessions (interviews, surveys, etc.)",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-02T11:30:00Z",
+                  "dateUpdated": "2024-11-10T16:00:00Z"
                 },
                 {
                   "subtaskID": "sbtsk-3",
                   "subtaskTitle": "Document and prioritize the project requirements",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-02T11:30:00Z",
+                  "dateUpdated": "2024-11-10T16:00:00Z"
                 }
               ]
             },
             {
               "taskID": "tsk-2",
+              "columnID": "clm-1",
               "taskTitle": "Set up project repository.",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-03T12:00:00Z",
+              "dateUpdated": "2024-11-14T13:00:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Create project repository on GitHub (or other platform)",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-03T12:15:00Z",
+                  "dateUpdated": "2024-11-12T12:45:00Z"
                 },
                 {
                   "subtaskID": "sbtsk-2",
                   "subtaskTitle": "Configure repository structure (folders, README, etc.)",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-03T12:15:00Z",
+                  "dateUpdated": "2024-11-12T12:45:00Z"
                 }
               ]
             },
             {
               "taskID": "tsk-3",
+              "columnID": "clm-1",
               "taskTitle": "Create initial wireframes",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-04T13:00:00Z",
+              "dateUpdated": "2024-11-13T14:00:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Review wireframes with stakeholders for feedback",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-04T13:15:00Z",
+                  "dateUpdated": "2024-11-12T14:45:00Z"
                 }
               ]
             }
@@ -64,31 +92,47 @@
           "columnID": "clm-2",
           "columnName": "in-progress",
           "label": "in progress",
+          "dateCreated": "2024-11-05T10:00:00Z",
+          "dateUpdated": "2024-11-15T11:00:00Z",
           "tasks": [
             {
               "taskID": "ip-1",
+              "columnID": "clm-2",
               "taskTitle": "Design UI elements.",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-06T11:00:00Z",
+              "dateUpdated": "2024-11-12T12:00:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Create a color palette for the UI",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-06T11:30:00Z",
+                  "dateUpdated": "2024-11-11T13:00:00Z"
                 }
               ]
             },
             {
               "taskID": "ip-2",
+              "columnID": "clm-2",
               "taskTitle": "Develop login functionality..",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-07T12:30:00Z",
+              "dateUpdated": "2024-11-14T13:30:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Design the login form UI (fields, buttons, error messages)",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-07T12:45:00Z",
+                  "dateUpdated": "2024-11-11T14:30:00Z"
                 },
                 {
                   "subtaskID": "sbtsk-2",
                   "subtaskTitle": "Implement backend authentication logic (username/email, password validation)",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-07T12:45:00Z",
+                  "dateUpdated": "2024-11-11T14:30:00Z"
                 }
               ]
             }
@@ -98,15 +142,23 @@
           "columnID": "clm-3",
           "columnName": "done",
           "label": "done",
+          "dateCreated": "2024-11-08T10:00:00Z",
+          "dateUpdated": "2024-11-14T10:00:00Z",
           "tasks": [
             {
               "taskID": "dn-1",
+              "columnID": "clm-3",
               "taskTitle": "Frontend layout completed.",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-09T11:00:00Z",
+              "dateUpdated": "2024-11-13T12:00:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Finalize overall page structure (header, footer, sidebar, main content)",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-09T11:15:00Z",
+                  "dateUpdated": "2024-11-12T13:00:00Z"
                 }
               ]
             }
@@ -118,46 +170,68 @@
       "boardTitle": "Bali Vacation",
       "boardID": "brd-2",
       "status": false,
+      "dateCreated": "2024-11-10T08:00:00Z",
+      "dateUpdated": "2024-11-15T08:00:00Z",
       "columns": [
         {
           "columnID": "clm-1",
           "columnName": "todo",
           "label": "todo",
+          "dateCreated": "2024-11-10T09:00:00Z",
+          "dateUpdated": "2024-11-13T09:00:00Z",
           "tasks": [
             {
               "taskID": "tsk-1",
+              "columnID": "clm-1",
               "taskTitle": "Try Bali's Delicacies.",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-11T10:00:00Z",
+              "dateUpdated": "2024-11-14T10:00:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Research and list top Balinese dishes to try",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-11T10:15:00Z",
+                  "dateUpdated": "2024-11-12T11:00:00Z"
                 },
                 {
                   "subtaskID": "sbtsk-2",
                   "subtaskTitle": "Find local restaurants or warungs known for authentic Balinese food",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-11T10:15:00Z",
+                  "dateUpdated": "2024-11-12T11:00:00Z"
                 }
               ]
             },
             {
               "taskID": "tsk-2",
+              "columnID": "clm-1",
               "taskTitle": "Visit Ceking Rice Terrace.",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-12T11:00:00Z",
+              "dateUpdated": "2024-11-13T11:00:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Research the best time to visit Ceking Rice Terrace",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-12T11:15:00Z",
+                  "dateUpdated": "2024-11-13T11:00:00Z"
                 },
                 {
                   "subtaskID": "sbtsk-2",
                   "subtaskTitle": "Arrange transportation to Ceking Rice Terrace",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-12T11:15:00Z",
+                  "dateUpdated": "2024-11-13T11:00:00Z"
                 },
                 {
                   "subtaskID": "sbtsk-3",
                   "subtaskTitle": "Prepare camera and gear for scenic photos",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-12T11:15:00Z",
+                  "dateUpdated": "2024-11-13T11:00:00Z"
                 }
               ]
             }
@@ -165,17 +239,25 @@
         },
         {
           "columnID": "clm-2",
-          "columnName": "in-progress",
-          "label": "in progress",
+          "columnName": "doing",
+          "label": "doing",
+          "dateCreated": "2024-11-13T09:00:00Z",
+          "dateUpdated": "2024-11-15T09:00:00Z",
           "tasks": [
             {
               "taskID": "ip-1",
+              "columnID": "clm-2",
               "taskTitle": "Relaxing and enjoying at Bali's beach",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-13T09:30:00Z",
+              "dateUpdated": "2024-11-14T09:00:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Choose a beach based on desired activities (surfing, sunbathing, swimming)",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-13T09:45:00Z",
+                  "dateUpdated": "2024-11-14T09:15:00Z"
                 }
               ]
             }
@@ -185,15 +267,23 @@
           "columnID": "clm-3",
           "columnName": "done",
           "label": "done",
+          "dateCreated": "2024-11-14T08:00:00Z",
+          "dateUpdated": "2024-11-15T08:00:00Z",
           "tasks": [
             {
               "taskID": "dn-1",
+              "columnID": "clm-3",
               "taskTitle": "Booked a 4 star hotel here in Bali.",
+              "taskDescription": "Lorem ipsum",
+              "dateCreated": "2024-11-14T09:00:00Z",
+              "dateUpdated": "2024-11-15T09:00:00Z",
               "subtasks": [
                 {
                   "subtaskID": "sbtsk-1",
                   "subtaskTitle": "Research and shortlist 4-star hotels in Bali based on location and amenities",
-                  "isDone": false
+                  "isDone": false,
+                  "dateCreated": "2024-11-14T09:15:00Z",
+                  "dateUpdated": "2024-11-15T09:30:00Z"
                 }
               ]
             }

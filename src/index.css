@@ -24,7 +24,7 @@
   }
 
   ::-webkit-scrollbar {
-    @apply w-[4px];
+    @apply h-[4px] w-[4px];
   }
 
   ::-webkit-scrollbar-track {
