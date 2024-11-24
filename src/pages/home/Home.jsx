@@ -11,7 +11,7 @@ const Home = () => {
     <DndProvider backend={HTML5Backend}>
       {/* <p className="text-xl font-bold"> Your Kanban board here</p> */}
 
-      <div className="grid h-full grid-cols-[17.5em_17.5em_17.5em] gap-x-10 md:gap-x-12 lg:grid-cols-[18.5em_18.5em_18.5em]">
+      <div className="grid h-full grow auto-cols-[17.5em] grid-cols-[17.5em_17.5em_17.5em] gap-x-10 overflow-x-scroll px-6 py-8 md:gap-x-12 lg:auto-cols-[18.5em] lg:grid-cols-[18.5em_18.5em_18.5em]">
         {activeBoardData?.columns?.map((column, index) => {
           return (
             <div key={index} className="flex h-full flex-col gap-6">
@@ -26,7 +26,7 @@ const Home = () => {
                   return (
                     <div
                       key={index}
-                      className="group flex h-fit cursor-pointer flex-col gap-1 rounded-md bg-[var(--card-bg-color)] p-4 shadow-md md:px-4 md:py-6"
+                      className="group flex h-fit cursor-pointer flex-col gap-1 rounded-md bg-[var(--card-bg-color)] p-4 shadow-md transition-colors hover:bg-[var(--card-hover-color)] md:px-4 md:py-6"
                     >
                       <p className="transtion-colors font-bold text-gray-800 delay-100 duration-200 group-hover:text-[var(--brand-color)]">
                         {task.taskTitle}

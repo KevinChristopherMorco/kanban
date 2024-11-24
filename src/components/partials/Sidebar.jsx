@@ -1,22 +1,20 @@
 import React from "react";
 import { RiDashboardLine, RiMoonClearFill, RiSunFill } from "@remixicon/react";
 
-import useKanbanBoard, {
+import {
   useKanbanContext,
 } from "../../hooks/board/KanbanProvider";
 
 const Sidebar = () => {
   const {
     board: { boards },
-    setBoard,
     handleBoardActive,
-    handleActiveBoardData,
   } = useKanbanContext();
 
   const handleChangeList = (board) => {
     handleBoardActive(board.boardID);
-    // handleActiveBoardData();
   };
+  
   return (
     <div className="col-start-1 row-span-2 flex w-full flex-col border-r border-gray-200 transition-colors md:gap-4">
       <div className="flex h-[10vh] items-center justify-center border-b border-gray-200 px-8 xl:h-[15vh]">
@@ -46,7 +44,7 @@ const Sidebar = () => {
         </div>
         <div className="flex items-center gap-5 self-center rounded-xl bg-[#F4F7FD] md:px-8 md:py-5">
           <RiMoonClearFill className="h-5 w-5 text-gray-500" />
-          <div className="flex h-5 w-10 items-center rounded-full bg-[var(--brand-color)]">
+          <div className="flex h-5 w-10 cursor-pointer items-center rounded-full bg-[var(--brand-color)]">
             <div className="h-4 w-4 rounded-full bg-white"></div>
           </div>
           <RiSunFill className="h-5 w-5 text-gray-500" />

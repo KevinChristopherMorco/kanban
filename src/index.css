@@ -7,12 +7,14 @@
 
   --main-bg-color: #f4f7fd;
   --card-bg-color: #fff;
+  --card-hover-color: #f9fbfe;
   --link-hover-color: #a8a4ff;
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
 

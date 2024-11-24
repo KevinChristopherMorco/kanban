@@ -20,7 +20,7 @@ const Layout = () => {
   return (
     <div className="flex min-h-full flex-col md:grid md:grid-cols-[auto_7fr] md:grid-rows-[10vh_8fr] md:gap-0 xl:grid-rows-[15vh_8fr]">
       <Header setToggleModal={setToggleModal} />
-      <main className="main-container w-full grow overflow-x-scroll bg-[var(--main-bg-color)] p-6 md:col-start-2 md:row-start-2">
+      <main className="main-container overflow-x-scroll bg-[var(--main-bg-color)] md:col-start-2 md:row-start-2">
         <Outlet />
       </main>
       {(md || isLargeScreen) && <Sidebar />}
